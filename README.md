@@ -20,8 +20,11 @@ create django app  using `python manage.py startapp ....name`  the name of my ap
 # Create database table
 
 class BlogPost(models.Model):
+
     title=models.CharField(max_length=200)
+
     content=models.TextField
+    
     timestamp=models.DateTimeField(auto_now_add=True)
 
 Here i have 3 column. title,content and timestamp
