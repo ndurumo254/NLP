@@ -24,7 +24,18 @@ class BlogPost(models.Model):
     title=models.CharField(max_length=200)
 
     content=models.TextField
-    
+
     timestamp=models.DateTimeField(auto_now_add=True)
 
 Here i have 3 column. title,content and timestamp
+
+
+# pgvecto
+
+Vector databases are  emerging as a powerful tool for similarity search and recommendation systems.
+
+They are making search of high dimensional vectors, such as images  to be very efficient
+
+pgvector makes it possible to store vector directly in the postgreSQL database
+
+# https://github.com/pgvector/pgvector-python
