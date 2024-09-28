@@ -7,7 +7,7 @@ BASE_DIR = NBS_DIR.parent
 
 
 
-def init_django(project_name='talknlp', django_root='src'):
+def init_django(project_name='talknlp', django_root='src/talknlp'):
     PROJECT_ROOT = BASE_DIR / django_root
     os.chdir(PROJECT_ROOT)
     sys.path.insert(0, str(PROJECT_ROOT))
