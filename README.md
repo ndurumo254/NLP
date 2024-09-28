@@ -3,6 +3,7 @@ open AI in Django python framework
 
 
 # Start by understanding word embedding
+
 In modern day search engine vector search is used
 
 Words are converted in numerics and represented in vector format
@@ -39,5 +40,11 @@ They are making search of high dimensional vectors, such as images  to be very e
 pgvector makes it possible to store vector directly in the postgreSQL database
 
 # https://github.com/pgvector/pgvector-python
+
+# Neon database.
+
+To learn more on neon postgresql data base implimentation visit the following link.
+
+## https://neon.tech/docs/guides/django-migrations
 
 ![alt text](<Screenshot from 2024-09-28 12-17-53.png>)
