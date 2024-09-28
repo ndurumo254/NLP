@@ -39,3 +39,5 @@ They are making search of high dimensional vectors, such as images  to be very e
 pgvector makes it possible to store vector directly in the postgreSQL database
 
 # https://github.com/pgvector/pgvector-python
+
+![alt text](<Screenshot from 2024-09-28 12-17-53.png>)
